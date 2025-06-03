@@ -26,11 +26,19 @@ This project is a lightweight, intelligent invoice parsing tool built with **Fla
 
 ### ✅ Prerequisites
 
-- Python 3.8+
-- EasyOCR installed and added to PATH
-- API Keys for:
-  - [Groq](https://console.groq.com/)
-- Internet connection
+Make sure you have the following set up before running the project:
+
+- 🐍 Python 3.8+
+
+- 📦 Required Python packages (see requirements.txt)
+
+- 🔑 Groq API Key (for LLaMA model integration)
+
+- 🌐 Active Internet connection (for API calls and model access)
+
+- 🧠 (Optional) GPU support for faster OCR using Doctr with PyTorch backend
+
+**Note : **🔒 Store your Groq API key securely in a .env file as GROQ_API_KEY=your_key_here
 
 ---
 ## 🚀 Getting Started
