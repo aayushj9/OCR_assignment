@@ -1,11 +1,11 @@
 # OCR assignment for data extraction from scanned document
-A robust Python application that leverages deep learning-based OCR to extract structured information from scanned invoice documents. It converts raw text into clean, nested JSON format and enables intelligent, natural language querying using an integrated Large Language Model (LLM).
+A robust Python application that leverages **deep learning-based OCR** to extract structured information from scanned invoice documents. It converts raw text into clean, nested JSON format and enables intelligent, natural language querying using an integrated **Large Language Model (LLM)**.
 
 
 
-# 🧾 AI-Powered Invoice Parser with OCR, EasyOCR, and Groq Integration
+# 🧾 AI-Powered Invoice Parser with Doctr,Flask, and Groq's LLaMA 4 model Integration
 
-This project is a lightweight, intelligent invoice parsing tool built with Flask, Doctr (deep learning OCR), and Groq’s LLaMA 4 model. It allows users to upload scanned invoice images, extract structured JSON data using layout-aware OCR, and interactively query that data via a conversational interface powered by the meta-llama/llama-4-maverick-17b-128e-instruct model.
+This project is a lightweight, intelligent invoice parsing tool built with **Flask, Doctr (deep learning OCR), and Groq’s LLaMA 4 model**. It allows users to upload scanned invoice images, extract structured JSON data using layout-aware OCR, and interactively query that data via a conversational interface powered by the **meta-llama/llama-4-maverick-17b-128e-instruct model**.
 
 
 ## 📌 Features
