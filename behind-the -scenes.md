@@ -90,24 +90,16 @@ Use this preprocessing step **before passing the image into the OCR model** for 
 
 ---
 
-## 5. 🧠 Additional Suggestions & Extensions
+## 5. 🧠 Additional thing can be done along with using advance paid OCR toosl
 
-- ✅ Add logging to track OCR outputs and user queries for debugging or auditing.
-- ✅ Replace JSON storage with a database for multi-user environments.
 - ✅ Add retry logic if LLM returns malformed JSON.
 - ✅ Extend chatbot with semantic search using embeddings (e.g., Qdrant or FAISS).
 - ✅ Enable multi-invoice comparison or dashboard for uploaded documents.
-- ✅ Add JWT-based authentication for secure deployments.
+- ✅ Parses **messy OCR text** and understands **document structure**.
+- ✅ dds **flexibility and reasoning** that static rule-based systems lack.
+
 
 ---
 
-## 🚀 Bonus: Why LLMs Matter Here
 
-LLMs aren’t just used for casual chatbot replies. In this project, the LLM:
-- Parses **messy OCR text** and understands **document structure**
-- Translates user queries into structured lookups across nested fields
-- Adds **flexibility and reasoning** that static rule-based systems lack
-
----
-
-Enjoy building smarter invoice tools! 💡
+I hope the script was helpful! 💡
