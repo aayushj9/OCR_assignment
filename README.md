@@ -50,8 +50,8 @@ Follow these steps to set up and run the project locally.
 ### 📥 1. Clone the Repository
 
 ```bash
-git clone https://github.com/aayushj9/Talentica_assignment_OCR.git
-cd Talentica_assignment_OCR
+git clone https://github.com/aayushj9/OCR_assignment.git
+cd OCR_assignment
 ```
 ### 🧪 2. Create and Activate Virtual Environment
 ```bash
@@ -90,7 +90,9 @@ http://127.0.0.1:5000
 
 ```
 - Choose a file and click on upload
-- Use the chatbot to ask any question
+- On left pan the extracted invoive will be shown
+- On right pan the originial uploaded invovie will be shown
+- On left pan bottom, Use the chatbot to ask any question
 - click on clear to clear the dataset
 
 
@@ -98,7 +100,7 @@ http://127.0.0.1:5000
 
 ### 🧾 Folder Structure
 ```bash
-Talentica_assignment_OCR/
+OCR_assignment/
 │
 ├── app.py                # Main Flask app
 ├── invoice_utils.py      # Supporting functions
@@ -115,10 +117,11 @@ Talentica_assignment_OCR/
 ```
 
 
-### 📝 Example Use Cases
+### 📝 Example Use Cases (for Chatbot)
 ```
 "What is the total amount?”
 “When is the due date?”
 “Who is the vendor on this invoice?”
 “What is the invoice number?”
+Note : if no response available chatbot will return a sorry messge refering to right side uploaded image. 
 
