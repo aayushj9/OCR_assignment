@@ -1,4 +1,4 @@
-# Talentica_assignment_OCR
+# OCR assignment for data extraction from scanned document
 A Python-based OCR-powered invoice parser that extracts structured data into JSON format and enables intelligent querying using LLM model.
 
 
