@@ -10,11 +10,15 @@ This project is a lightweight, intelligent invoice parsing tool built with **Fla
 
 ## 📌 Features
 
-- Upload image-based invoices (supports PNG, JPG, JPEG, PDF, BMP, TIFF, etc.)
-- Extract structured invoice data using **EasyOCR**
-- JSON output is saved for each uploaded invoice
-- Ask natural language questions on the invoice using **Groq's LLaMA model**
-- Simple and intuitive **Flask** web UI
+- 🖼️ Upload scanned or image-based invoices (supports PNG, JPG, JPEG, PDF, BMP, TIFF, and more)
+
+- 🔍 Extract structured invoice data using Doctr, a deep learning-based OCR engine optimized for layout-aware documents
+
+- 🗂️ Automatically generate and store clean, nested JSON output for each invoice
+
+- 💬 Ask natural language questions about the invoice using Groq's LLaMA 4 model (meta-llama/llama-4-maverick-17b-128e-instruct)
+
+- 🌐 Lightweight and intuitive Flask web interface with live chatbot support
 
 ---
 
