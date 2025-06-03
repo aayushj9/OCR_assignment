@@ -38,7 +38,7 @@ Make sure you have the following set up before running the project:
 
 - 🧠 (Optional) GPU support for faster OCR using Doctr with PyTorch backend
 
-**Note : **🔒 Store your Groq API key securely in a .env file as GROQ_API_KEY=your_key_here
+Note :🔒 Store your Groq API key securely in a **.env file** as GROQ_API_KEY=your_key_here
 
 ---
 ## 🚀 Getting Started
