@@ -1,10 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import os
-# import easyocr
 from doctr.io import DocumentFile
 from doctr.models import ocr_predictor
-
-from PIL import Image
 import json
 import uuid
 
@@ -36,9 +33,6 @@ def index():
             filename = f"{uuid.uuid4().hex}_{file.filename}"
             file_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
             file.save(file_path)
-
-            # OCR using EasyOCR
-            # image = Image.open(file_path)
             print(file_path)
             # Load image
             doc = DocumentFile.from_images(file_path)  # Use pic2.jpg for the second imag
