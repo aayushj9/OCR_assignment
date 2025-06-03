@@ -6,7 +6,7 @@ A robust Python application that leverages deep learning-based OCR to extract st
 # 🧾 AI-Powered Invoice Parser with OCR, EasyOCR, and Groq Integration
 
 This project is a lightweight, intelligent invoice parsing tool built with Flask, Doctr (deep learning OCR), and Groq’s LLaMA 4 model. It allows users to upload scanned invoice images, extract structured JSON data using layout-aware OCR, and interactively query that data via a conversational interface powered by the meta-llama/llama-4-maverick-17b-128e-instruct model.
----
+
 
 ## 📌 Features
 
